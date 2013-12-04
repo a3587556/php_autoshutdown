@@ -1,5 +1,5 @@
 <?php
-$url="http://localhost/autoshutdown/p.txt";
+$url="http://localhost/p.txt";
 echo $p=file_get_contents($url); // Read the instructions of shutdown, the one means that shutdown computer now
 while (1)
 {
